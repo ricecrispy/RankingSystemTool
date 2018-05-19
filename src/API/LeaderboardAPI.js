@@ -75,11 +75,4 @@ export default class LeaderboardAPI {
       personApi.ReportMatchResult(playerOneUserId, playerTwoUserId, didPlayerOneWin);
     }
   }
-
-
-
-
-  SortLeaderboardByWinRate() {}
-
-  SortLeaderboardByRating() {}
 }

@@ -12,11 +12,4 @@ export default class Leaderboard {
         
         this.seasonList.push(newSeason);
     }
-
-    // CreateNewSeason() {
-    //     let leaderboard = new leaderboard();
-    //     this.currentMonth = leaderboard.createdMonth;
-    //     this.currentYear = leaderboard.createdYear;
-    //     this.seasonList.push(leaderboard);
-    // }
 }
