@@ -1,0 +1,28 @@
+{
+  "name": "rankingsystemtool",
+  "version": "1.0.0",
+  "description": "Elo ranking system!! ",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricecrispy/RankingSystemTool.git"
+  },
+  "author": "Jeffrey Siu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ricecrispy/RankingSystemTool/issues"
+  },
+  "homepage": "https://github.com/ricecrispy/RankingSystemTool#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rimraf": "^2.6.2"
+  }
+}
